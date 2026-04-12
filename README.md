@@ -5,15 +5,10 @@ Hello There! I'm Carlos, and this is the repo for my talk at **Deep Dish Swift 2
 The talk covers three layers of Apple's on-device speech intelligence stack and how they fit together:
 
 1. **SpeechAnalyzer** (`import Speech`) — Apple's new WWDC25 transcription framework
-2. **FluidAudio** — Community-built speaker diarization, ANE-optimized
-3. **Foundation Models** (`import FoundationModels`) — On-device LLM structured output
+2. **FluidAudio** — Community-built speaker diarization, ANE optimized
+3. **Foundation Models** (`import FoundationModels`) — On device LLM structured output
 
 All processing runs entirely on-device. No cloud, no API keys.
-
-## What's Here
-
-- **`DeepDishSwift_2026/`** — The companion SwiftUI demo app. Three tabs, each building on the last: transcription, diarization, and structured order extraction via on-device LLM. Check the [app README](DeepDishSwift_2026/README.md) for setup instructions.
-- **`ExtraSaucyPlayground.swiftpm/`** — A Swift Playground with code from the talk
 
 ## Coming Soon
 
